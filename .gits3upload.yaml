@@ -33,4 +33,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: Copy files to the test website with the AWS CLI
         run: |
-         aws s3 sync . s3://rajarathna123-target --region ap-south-1
+         aws s3 sync . s3://rajarathna123 --region ap-south-1
